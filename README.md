@@ -1,15 +1,13 @@
 ### Star_Schema_Project
 
-This project is a **hospital data warehouse star schema** designed to organize and analyze hospital operations efficiently. It includes **dimension tables** and a **fact table** to support reporting, analytics, and business intelligence tasks.
+This project is a **hospital data warehouse star schema** designed to organize and analyze hospital operations efficiently. It includes **dimension tables** and a **fact table** to support reporting, analytics, and business intelligence tasks.Designed and implemented a hospital data warehouse using a star schema model. Created all dimension and fact tables and populated them with sample data to support analytical queries and reporting. 
 
 The schema tracks **patients, doctors, departments, treatments, wards, medical aids, and visit details**, providing a normalized structure that simplifies querying and reporting.
-
----
 
 ### Star Schema Structure
 
 #### Fact Table
-- **FactVisit** – Contains hospital visit records including patient, doctor, department, treatment, ward, medical aid, cost, length of stay, and number of procedures.
+- **FactHospitalVisitst** – Contains hospital visit records including patient, doctor, department, treatment, ward, medical aid, cost, length of stay, and number of procedures.
 
 #### Dimension Tables
 - **DimPatient** – Patient information including demographics and location.  
@@ -21,8 +19,7 @@ The schema tracks **patients, doctors, departments, treatments, wards, medical a
 - **DimDate** – Calendar dates for tracking visit dates, treatment dates, and hospital operations.
 
 #### Key Features
-
-- **Normalized design:** Reduces data redundancy and ensures consistent reporting.  
+  
 - **Full star schema:** Fact table at the center, linking all dimensions.  
 - **Flexible for analytics:** Easily query costs, patient visits, treatments, and doctor performance.  
 - **Sample data included:** Each table contains 5 sample rows for testing and demonstrations.  
