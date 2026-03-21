@@ -36,5 +36,6 @@ The schema tracks **patients, doctors, departments, treatments, wards, medical a
 - Generate **reports by treatment, medical aid, or date**.
 
 ### Schema Diagram
-<img width="3044" height="4204" alt="image" src="https://github.com/user-attachments/assets/ffd012e2-ddfb-4166-957e-01806b8a05b2" />
+<img width="3044" height="4204" alt="image" src="https://github.com/user-attachments/assets/082fb714-0d44-4ac5-a0da-cd1868b37a78" />
+
 
